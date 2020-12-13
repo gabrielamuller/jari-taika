@@ -1,3 +1,4 @@
+<!-- Page Header -->
 <!DOCTYPE html>
 <html lang="en">
     
@@ -7,63 +8,155 @@
         />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <link rel="stylesheet" href="css/style.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+        <script src="https://kit.fontawesome.com/7543d41591.js" crossorigin="anonymous"></script>
         <link rel="icon" href="./img/icon.png" />
         <title>Jari & Taika</title>
     </head>
     
     <body>
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-<a class="navbar-brand" href="./index.html">Jari & Taika</a>
+        <nav class="navbar navbar-expand-md navbar-light sticky-top"> <a class="navbar-brand" href="./index.html"><img class="logo" src="img/jarijataikalogo.png" alt="Jari ja Taika logo"></a>
 
-            <button class="navbar-toggler"
-            type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+            <button
+            class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
             aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
 
-            </button>
-            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active"> <a class="nav-link" href="./index.html">Etusivu<span class="sr-only">(current)</span></a>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active"> <a class="nav-link" href="./index.html">Etusivu<span class="sr-only">(current)</span></a>
 
-                    </li>
-                    <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">Meistä</a>
+                        </li>
+                        <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Meistä</a>
 
-                        <div class="dropdown-menu"
-                        aria-labelledby="dropdown01"> <a class="dropdown-item" href="#">Jäsenet</a>
+                            <div class="dropdown-menu"
+                            aria-labelledby="dropdown01"> <a class="dropdown-item" href="#">Jäsenet</a>
  <a class="dropdown-item"
-                            href="#">Historia</a>
+                                href="#">Historia</a>
  <a class="dropdown-item" href="#">Kuvagalleria</a>
 
-                        </div>
-                    </li>
-                    <li class="nav-item"> <a class="nav-link" href="./contact.html">Yhteystiedot</a>
+                            </div>
+                        </li>
+                        <li class="nav-item"> <a class="nav-link" href="./contact.html">Yhteystiedot</a>
 
-                    </li>
-                </ul>
-            </div>
+                        </li>
+                    </ul>
+                </div>
         </nav>
-        <div class="jumbotron bg-white text-center justify-content-center align-items-center mb-0">
+        <!-- Masthead -->
+        <header class="masthead text-white text-center">
+            <div class="overlay"></div>
             <div class="container">
-                 <h1 class="display-3">Jari & Taika -yhtye</h1>
+                <div class="row">
+                    <div class="col-xl-9 mx-auto">
+                         <h1 class="site-title mb-5">Jari & Taika -yhtye</h1>
 
-                <p class="lead">Tilaa yhtye viihdyttämään juhlaan kuin juhlaan</p>
-                <p><a class="btn btn-primary btn-lg" href="#" role="button">Lue lisää &raquo;</a>
-                </p>
+                        <hr class="divider my-4" />
+                         <h2>Tilaa yhtye viihdyttämään juhlaan kuin juhlaan</h2>
+ <a class="btn btn-round btn-lg mt-4" href="#" role="button">Lue lisää</a>
+
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="container">
+        </header>
+        <!-- Numbers and icons section -->
+        <section class="number-icons">
+            <div class="container jumbotron bg-white text-center">
+                 <h2 class="section-title">Faktoja yhtyeestä</h2>
+
+                <div class="row">
+                    <div class="col-sm"> <i class="fas fa-music"></i>
+
+                         <h3 class="text">Kappaleita valikoimissa</h3>
+
+                        <div class="number">
+                            <p class="number-count">185</p>
+                            <p class="kpl">kpl</p>
+                        </div>
+                    </div>
+                    <div class="col-sm"> <i class="fas fa-award"></i>
+
+                         <h3 class="text">Palkintoja voitettu</h3>
+
+                        <div class="number">
+                            <p class="number-count">104</p>
+                            <p class="kpl">kpl</p>
+                        </div>
+                    </div>
+                    <div class="col-sm"> <i class="fas fa-guitar"></i>
+
+                         <h3 class="text">Keikkoja esitetty</h3>
+
+                        <div class="number">
+                            <p class="number-count">250</p>
+                            <p class="kpl">kpl</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Two column text info -->
+        <section class="info-section">
             <div class="row">
-                <div class="col-md-4">
-                    <img class="img-fluid" src="img/kuva01.jpg">
+                <div class="col-sm first-text-container">
+                     <h2 class="title">Tietoa meistä</h2>
+
+                    <p class="text">Jari ja Taika on täyden palvelun tanssiorkesteri ja viiden mukavan muusikon
+                        yhtye, joka tuo vauhtia ja viihdykettä juhliisi. Keikkailemme kaikkialla
+                        Etelä- ja Länsi-Suomessa Humppilasta käsin. Laajasta ohjelmistosta löytyvät
+                        esimerkiksi ikivihreät jazzklassikot vuosien varrelta, suomipop-suosikit,
+                        päivän iskelmät sekä muutama oma sävellyskin. Meillä rytmi on veressä ja
+                        yleisön viihdyttäminen sydämen asiana.</p>
+                    <p><a class="btn btn-primary btn-lg mt-4" href="#" role="button">Lue lisää &raquo;</a>
+                    </p>
                 </div>
-                <div class="col-md-4">
-                    <img class="img-fluid" src="img/kuva02.jpg">
-                </div>
-                <div class="col-md-4">
-                    <img class="img-fluid" src="img/kuva03.jpg">
+                <div class="col-sm second-text-container">
+                     <h2 class="title">Tanssiorkesteri tempaa mukaansa eteläisessä Suomessa</h2>
+
+                    <p class="text">Keikkailemme pääasiassa Turku-Tampere-Helsinki -akselilla, mutta kannattaa
+                        kysyä tanssiorkesteriamme keikalle kauemmaskin. Iloinen ja tarttuva meininkimme
+                        toimii pohjoisemmassakin. Ota yhteyttä ja pyydä tarjous keikasta.</p>
                 </div>
             </div>
-        </div>
+        </section>
+        <!-- Info text -->
+        <section class="info-text">
+            <div class="jumbotron bg-white text-center justify-content-center align-items-center mb-0">
+                <div class="container">
+                     <h2 class="section-title">Ohjelmisto asiakkaan toiveiden mukaan</h2>
+
+                    <p class="lead">Tarjoamme valmiina 16 settivaihtoehtoa, joiden joukossa on sekä menevämpiä
+                        tanssipotpureita, että rauhallisempiin tilaisuuksiin taustamusiikiksi soveltuvia
+                        settejä. Pyrimme vastaamaan mahdollisimman hyvin asiakkaan toiveisiin ohjelmiston
+                        osalta, joten neuvotellaan extrakappaleista tarpeen mukaan. Valmiiden esimerkkien
+                        joukosta on helppo poimia omaa makua ja haluttua tunnelmaa vastaava setti.</p>
+                    <a
+                    class="btn btn-primary btn-lg mt-4" href="#" role="button">Lue lisää &raquo;</a>
+                </div>
+            </div>
+        </section>
+        <!-- Images -->
+        <section class="images">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img class="img-fluid" src="img/kuva01.jpg">
+                    </div>
+                    <div class="col-md-4">
+                        <img class="img-fluid" src="img/kuva02.jpg">
+                    </div>
+                    <div class="col-md-4">
+                        <img class="img-fluid" src="img/kuva03.jpg">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer -->
         <footer class="footer container text-center">
             <p>&copy; Jari & Taika</p>
         </footer>

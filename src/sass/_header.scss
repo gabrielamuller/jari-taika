@@ -1,0 +1,48 @@
+// Navbar
+.navbar {
+  background-color: #fff;
+
+    .logo {
+        height: 4rem;
+        margin-left: 2rem;
+    }
+
+    .nav-link {
+      text-transform: uppercase;
+      font-weight: 600;
+      color: $color-almost-black;
+      margin-right: 1rem;
+    }
+}
+
+//Header
+.masthead {
+    position: relative;
+    background-color: $gray-800;
+    background: url('/img/header-frontpage.jpg') no-repeat center center;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+
+    .overlay {
+      position: absolute;
+      background-color: $gray-900;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      opacity: 0.5;
+    }
+
+    hr {
+        max-width: 3.25rem;
+        border-width: 0.2rem;
+        border-color: $color-primary;
+    }
+
+    @media (min-width: $break-md) {
+      padding-top: 12rem;
+      padding-bottom: 12rem;
+
+    }
+  }

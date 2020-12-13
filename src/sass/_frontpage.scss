@@ -1,0 +1,93 @@
+// H1 title
+.site-title {
+    font-weight: $font-bold;
+    letter-spacing: 3px;
+    font-size: 3.5rem;
+}
+
+// Number section
+.number-icons {
+    color: $color-almost-black;
+
+    .row {
+        margin-top: 4rem;
+    }
+
+    .fas {
+        font-size: 4rem;
+    }
+
+    .text {
+        font-size: 1.5rem;
+        font-weight: $font-regular;
+        margin-top: 1.5rem;
+    }
+
+    .number {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        font-size: 3rem;
+        font-weight: 700;
+
+        .number-count {
+            margin-right: 0.5rem;
+        }
+    }
+}
+
+// Info section
+.info-section {
+    background-position: center;
+    position: relative;
+    margin-bottom: 3rem;
+    background-image: url("/img/info-img.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &::after {
+        content: "";
+        position: absolute;
+        display: block;
+        top: 0;
+        height: 100%;
+        background-color: RGBA(33, 37, 41, 0.7);
+        width: 100%;
+    }
+
+    .first-text-container {
+        padding: 5rem;
+        z-index: 2;
+        flex: 1 1 60%;
+        position: relative;
+        font-size: 1.25rem;
+        background-color: RGBA(33, 37, 41, 0.6);
+        color: white;
+
+        @media (max-width: 830px) {
+            border-bottom: 5px solid white;
+        }
+    }
+
+    .second-text-container {
+        padding: 5rem;
+        z-index: 2;
+        flex: 1 1 40%;
+        width: 100%;
+        position: relative;
+        font-size: 1.25rem;
+        color: white;
+    }
+}
+
+// Images
+.img-fluid {
+    object-fit: cover;
+    margin-bottom: 2rem;
+
+    @media (min-width: $break-md) {
+        height: 25rem;
+        width: 20rem;
+    }
+}
