@@ -10,3 +10,13 @@
 body {
     font-family: 'Asap', sans-serif;
 }
+
+.img-fluid {
+    object-fit: cover;
+    margin-bottom: 2rem;
+
+    @media (min-width: $break-md) {
+        height: 25rem;
+        width: 20rem;
+    }
+}

@@ -7,63 +7,154 @@
         />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <link rel="stylesheet" href="css/style.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+        <script src="https://kit.fontawesome.com/7543d41591.js" crossorigin="anonymous"></script>
         <link rel="icon" href="./img/icon.png" />
-        <title>Basic - Bootstrap 4 with Gulp 4</title>
+        <title>Jari & Taika</title>
     </head>
     
     <body>
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-<a class="navbar-brand" href="./index.html">Basic</a>
+        <nav class="navbar navbar-expand-md navbar-light sticky-top"> <a class="navbar-brand" href="./index.html"><img class="logo" src="img/jarijataikalogo.png" alt="Jari ja Taika logo"></a>
 
-            <button class="navbar-toggler"
-            type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+            <button
+            class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
             aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
 
-            </button>
-            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active"> <a class="nav-link" href="./index.html">Home<span class="sr-only">(current)</span></a>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active"> <a class="nav-link" href="./index.html">Etusivu<span class="sr-only">(current)</span></a>
 
-                    </li>
-                    <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                        </li>
+                        <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">Tietoa</a>
 
-                        <div class="dropdown-menu"
-                        aria-labelledby="dropdown01"> <a class="dropdown-item" href="#">Action</a>
- <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-menu"
+                            aria-labelledby="dropdown01"> <a class="dropdown-item" href="./members.html">Jäsenet</a>
+ <a class="dropdown-item"
+                                href="./about.html">Meistä</a>
+ <a class="dropdown-item" href="./gallery.html">Kuvagalleria</a>
 
-                            <a
-                            class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                    </li>
-                    <li class="nav-item"> <a class="nav-link" href="./about.html">About</a>
+                            </div>
+                        </li>
+                        <li class="nav-item"> <a class="nav-link" href="./contact.html">Yhteystiedot</a>
 
-                    </li>
-                </ul>
-            </div>
+                        </li>
+                    </ul>
+                </div>
         </nav>
-        <div class="jumbotron bg-white text-center justify-content-center align-items-center mb-0">
-            <div class="container">
-                 <h1 class="display-3">About</h1>
+        <!-- Masthead -->
+        <header class="masthead-members text-white text-center">
+            <div class="overlay"></div>
+            <div class="container"></div>
+        </header>
+        <section class="info-text">
+            <div class="jumbotron bg-white text-center justify-content-center align-items-center mb-0">
+                <div class="container">
+                     <h2 class="section-title">Tietoa meistä</h2>
 
-                <p class="lead">Basic is a responsive A Bootstrap 4.4.1 Boilerplate with Gulp, Sass, BrowserSync.</p>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <img class="img-fluid" src="https://images.unsplash.com/photo-1579032365451-d20e00c0ed23?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
-                </div>
-                <div class="col-md-4">
-                    <img class="img-fluid" src="https://images.unsplash.com/photo-1579032365437-9f9d275b0db0?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
-                </div>
-                <div class="col-md-4">
-                    <img class="img-fluid" src="https://images.unsplash.com/photo-1579033060982-1bb5b083f4fa?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+                    <p class="lead">Jari ja Taika on täyden palvelun tanssiorkesteri ja viiden mukavan muusikon
+                        yhtye, joka tuo vauhtia ja viihdykettä juhliisi. Keikkailemme kaikkialla
+                        Etelä- ja Länsi-Suomessa Humppilasta käsin. Laajasta ohjelmistosta löytyvät
+                        esimerkiksi ikivihreät jazzklassikot vuosien varrelta, suomipop-suosikit,
+                        päivän iskelmät sekä muutama oma sävellyskin. Meillä rytmi on veressä ja
+                        yleisön viihdyttäminen sydämen asiana.</p>
                 </div>
             </div>
-        </div>
+        </section>
+        <section class="section-about-text">
+            <div class="container">
+                <div class="row">
+                     <h2 class="section-title">Historia</h2>
+
+                    <div class="col-md-8 mx-auto">
+                        <p>Taika-yhtye sai alkunsa syksyllä 2004, jolloin fonistillamme Jaakko Heikkilällä
+                            oli tarve kasata bändi muutamaa keikkaa varten Humppilassa sijaitsevaan
+                            Otsolan Hovi ravintolaan. Jaakko tunsi Humppilassa asuvan Olli Kylä-Markulan
+                            ja kysyi tätä rumpaliksi, joka puolestaan kysyi Jari Mustajärveä hanuristiksi.
+                            Vielä tarvittiin basisti ja laulusolisti. Sekä Jarilla, että Ollilla oli
+                            yhteisiä soittokokemuksia loimaalaisen Kyösti Vaittisen kanssa, joten hänet
+                            kutsuttiin bändiin mukaan. Yhtye oli näin saanut alkuperäisen kokoonpanonsa.
+                            Jaakon myymät keikat hoidettiin sovitusti ja koska homma tuntui toimivan
+                            mukavasti päätettiin jatkaa harjoittelua ja keikkailua sitä mukaa kun tilauksia
+                            tuli.</p>
+                        <p>Harjoituksia pidettiin lähes viikoittain ja vuonna 2005 äänitettiin ensimmäinen
+                            CD Jarin hankkimalla kiintolevyäänittimellä. Levyä ei virallisesti julkaistu,
+                            vaan sitä päätettiin käyttää lähinnä markkinoinnissa näytteenä yhtyeen
+                            ohjelmistosta ja osaamisesta.</p>
+                         <h3 class="text-center">Uutta virtaa kokoonpanoon</h3>
+
+                        <p>Vuoden 2007 loppukeväällä rumpuihin tuli Reino "Reiska" Saari Loimaalta
+                            Olli Kylä-Markulan lopettaessa aktiivikeikkailun. Kyösti Vaittinen päätti
+                            jättäytyä pois yhtyeestä syksyllä 2008. Hänen tilallaan bassoa soittaa
+                            nykyisessä kokoonpanossa Jukka Kaurila, joka on myös taitava harmonikan
+                            soittaja. Solisteina toimivat Jari ja Jukka. Rummuissa soittelee nykyään
+                            Hannu Karvia Somerolta.</p>
+                         <h3 class="text-center">Osallistuminen kilpailuihin</h3>
+
+                        <p>Keväällä 2007 Taika osallistui Extra-viihteen järjestämään Viihdyttäjä
+                            2007 -kilpailuun ja eteni aina Ruusulinnassa pidettyyn semifinaaliin asti.
+                            Voittoa ei sillä kertaa tullut, mutta kokemuksena kilpailu oli antoisa
+                            ja antoi lisäpotkua harjoitteluun.</p>
+                        <p>Syksyllä 2011 yhtye osallistui YLEn järjestämään Uuden Musiikin kilpailuun,
+                            jossa haettiin Suomen edustajaa keväällä 2012 Azarbaidzanissa järjestettävään
+                            Eurovision -laulukilpailuun. Vaikka Jari & Taika ei edustanutkaan Suomea
+                            Bakussa, se sijoittui Uuden Musiikin kilpailussa 12 parhaimman joukkoon
+                            omalla kappaleellaan "Aamuyön ikuisuus", josta on myös ranskankielinen
+                            versio.</p>
+                         <h3 class="text-center">Kesäpainotteista keikkailua</h3>
+
+                        <p>Yhtyeen esiintymiset painottuvat yleensä kesäaikaan, jolloin olemme usein
+                            soittamassa häissä, synttäreillä, lavatansseissa ja kesäjuhlilla. Toinen
+                            sesonkiaika on marras-joulukuussa, jolloin pidetään paljon mm. pikkujouluja
+                            ja peijaisia. Koska lähes kaikilla yhtyeen jäsenillä on päiväsaikaan muita
+                            töitä, ei keikkoja ole koskaan pyrittykään hankkimaan kovin paljoa - lähinnä
+                            on soitettu ne, joita on kysytty, aktiivisen markkinoinnin jäädessä enemmän
+                            lehti-ilmoittelun ja www-sivujen varaan. Pääasiassa keikkailemme Turku-Tampere-Helsinki
+                            -kolmiossa, mutta aina silloin tällöin kutsu käy kauemmaskin.</p>
+                    </div>
+                     <h2 class="section-title">Ohjelmistomme</h2>
+
+                    <div class="col-md-8 mx-auto">
+                        <p>"Reiskan" myötä musiikillinen mielenkiintomme suuntautui 70- ja 80-lukujen
+                            musiikkiin, jossa erityisinä syventymisen kohteinamme ovat olleet mm. Mamban,
+                            Kari Tapion, Tapani Kansan, Frederikin ja Rauli Somerjoen biisit, joita
+                            olemme sisällyttäneet tanssi-ohjelmistoon. Näitä on myös kuultavissa viimeisimmällä
+                            levyllämme, joka valmistui vuoden 2009 syksyllä.</p>
+                        <p>Ohjelmistomme vankan rungon muodostaa tanssimusiikki, Suomipop ja päivän
+                            iskelmät. Soitannollisesta näkökulmasta tarkasteltuna erityisen riemastuttavia
+                            kappaleita ovat mm. Suomijazzin alkuaikojen levytykset, joiden autenttisesta
+                            soinnista ja innostavasta otteesta pyrimme omaksumaan vaikutteita omaankin
+                            soitantaamme. Omia sävellyksiä Jarille on kertynyt jonkin verran ja niistä
+                            muutamia on soitettu silloin tällöin myös keikoilla.</p>
+                        <p>Uutena aluevaltauksena olemme ottaneet ohjelmistoon mukaan klassisia Beatles
+                            sävelmiä sekä perinteisiä harmonikkakappaleita sovitettuna kahdelle harmonikalle.</p>
+                        <p>Perhejuhlissa soittelemme tavallisesti alkuillasta taustamusiikkina jazzia,
+                            mikä onkin herättänyt yleisössä usein ihastuneita reaktioita - sellaista
+                            musiikkia tänä päivänä harvemmin kuulee. Instrumenttivalikoimamme tukee
+                            erityisesti haitari- ja saksofonipainotteisen jazzin esittämistä. Tuolta
+                            saralta esikuviksi olemme löytäneet mm. Matti Viljasen, Teuvo Suojärven,
+                            Paul Norbäckin ja Kalevi Viitamäen kuolemattomia levytyksiä.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-listen">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 mx-auto">
+                         <h3 class="text-center">Kuuntele musiikkiamme Spotifyssa</h3>
+
+                        <iframe src="https://open.spotify.com/embed/artist/3AXzj9CsJxWYHX9IXtlFT2"
+                        width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    </div>
+        </section>
         <footer class="footer container text-center">
-            <p>&copy; Bootstrap Basic Starter with Gulp</p>
+            <p>&copy; Jari & Taika</p>
         </footer>
         <script src="js/all.js"></script>
     </body>
