@@ -1,18 +1,19 @@
 // Primary button
 .btn.btn-primary {
-    transition: background-color .5s ease-in-out,color .5s ease-in-out;
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
     border-radius: 0;
     border: none;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
     &:hover {
-        background-color: #E4D65E;
+        background-color: #e4d65e;
     }
 }
 
 // Round button
 .btn.btn-round {
-    transition: background-color .5s ease-in-out,color .5s ease-in-out;
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
     padding: 1rem 2.25rem;
     font-size: 1rem;
     font-weight: 700;
@@ -20,7 +21,7 @@
     border: none;
     border-radius: 10rem;
     background-color: $color-primary;
-    font-family: 'Merriweather Sans', sans-serif;
+    font-family: "Merriweather Sans", sans-serif;
     color: black;
 
     &:hover {

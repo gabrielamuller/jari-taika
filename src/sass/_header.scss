@@ -1,6 +1,6 @@
 // Navbar
 .navbar {
-  background-color: #fff;
+    background-color: #fff;
 
     .logo {
         height: 4rem;
@@ -8,29 +8,29 @@
     }
 
     .nav-link {
-      text-transform: uppercase;
-      font-weight: 600;
-      color: $color-almost-black;
-      margin-right: 1rem;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: $color-almost-black;
+        margin-right: 1rem;
     }
 }
 
 //Hero image frontpage
 .masthead {
     position: relative;
-    background: url('/img/header-frontpage.jpg') no-repeat center center;
+    background: url("/img/header-frontpage.jpg") no-repeat center center;
     background-size: cover;
     padding-top: 8rem;
     padding-bottom: 8rem;
 
     .overlay {
-      position: absolute;
-      background-color: $gray-900;
-      height: 100%;
-      width: 100%;
-      top: 0;
-      left: 0;
-      opacity: 0.5;
+        position: absolute;
+        background-color: $gray-900;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        opacity: 0.5;
     }
 
     hr {
@@ -40,46 +40,45 @@
     }
 
     @media (min-width: $break-md) {
-      padding-top: 12rem;
-      padding-bottom: 12rem;
-
+        padding-top: 12rem;
+        padding-bottom: 12rem;
     }
-  }
+}
 
 // Hero image members
 .masthead-members {
-  position: relative;
-  background: url('/img/site-header02.png') no-repeat top center;
-  background-size: cover;
-  padding-top: 10rem;
-  padding-bottom: 8rem;
+    position: relative;
+    background: url("/img/site-header02.png") no-repeat top center;
+    background-size: cover;
+    padding-top: 10rem;
+    padding-bottom: 8rem;
 
-  .overlay {
-    position: absolute;
-    background-color: $gray-900;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    opacity: 0.5;
-  }
+    .overlay {
+        position: absolute;
+        background-color: $gray-900;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        opacity: 0.5;
+    }
 }
 
 // Hero image contact
 .masthead-contact {
-  position: relative;
-  background: url('/img/site-header01.jpg') no-repeat center center;
-  background-size: cover;
-  padding-top: 10rem;
-  padding-bottom: 8rem;
+    position: relative;
+    background: url("/img/site-header01.jpg") no-repeat center center;
+    background-size: cover;
+    padding-top: 10rem;
+    padding-bottom: 8rem;
 
-  .overlay {
-    position: absolute;
-    background-color: $gray-900;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    opacity: 0.5;
-  }
+    .overlay {
+        position: absolute;
+        background-color: $gray-900;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        opacity: 0.5;
+    }
 }
