@@ -63,32 +63,26 @@
     .first-text-container {
         padding: 5rem;
         z-index: 2;
-        flex: 1 1 60%;
         position: relative;
         font-size: 1.25rem;
         background-color: RGBA(33, 37, 41, 0.6);
         color: white;
 
-        @media (max-width: 830px) {
+        @media (max-width: $break-l) {
+            padding: 3rem;
             border-bottom: 5px solid white;
-        }
-
-        @media (max-width: $break-md) {
-            padding: 2rem;
         }
     }
 
     .second-text-container {
         padding: 5rem;
         z-index: 2;
-        flex: 1 1 40%;
-        width: 100%;
         position: relative;
         font-size: 1.25rem;
         color: white;
 
-        @media (max-width: $break-md) {
-            padding: 2rem;
+        @media (max-width: $break-l) {
+            padding: 3rem;
         }
     }
 }
