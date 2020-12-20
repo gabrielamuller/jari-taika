@@ -1,5 +1,5 @@
 // Number count on frontpage
-if($('.number-icons').length >0 ) {
+if ($('.section-number-icons').length >0 ) {
     $(window).scroll(scrollNumber);
     var viewed = false;
     
@@ -14,7 +14,7 @@ if($('.number-icons').length >0 ) {
     }
     
     function scrollNumber() {
-      if (isScrolledIntoView($(".number-icons .number-count")) && !viewed) {
+      if (isScrolledIntoView($(".section-number-icons .number-count")) && !viewed) {
           viewed = true;
           $('.number-count').each(function () {
           $(this).prop('Counter',0).animate({
@@ -31,18 +31,12 @@ if($('.number-icons').length >0 ) {
     }
 }
 
-
-$(document).ready(function(){
-  // $(".fancybox").fancybox({
-  //       openEffect: "none",
-  //       closeEffect: "none"
-  //   });
-    
-    $(".zoom").hover(function(){
-		
-		$(this).addClass('transition');
-	}, function(){
-        
+// Image gallery zoom
+$(document).ready(function() {
+    $(".zoom").hover(function() {
+		  $(this).addClass('transition');
+  },
+  function() {       
 		$(this).removeClass('transition');
 	});
 });
